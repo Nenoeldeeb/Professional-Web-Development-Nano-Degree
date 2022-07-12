@@ -5,7 +5,7 @@ let d = new Date();
 let newDate = ( d.getMonth() + 1 ) + '.' + d.getDate() + '.' + d.getFullYear();
 
 // API Key.
-const apiKey = "b05e081707568e6ccb091c3bc9943284&unites=imperial";
+const apiKey = "your-API-key&unites=imperial";
 
 document.getElementById("generate").addEventListener("click", eve => {
 	eve.preventDefault();
